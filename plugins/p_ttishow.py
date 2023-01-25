@@ -54,7 +54,9 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome']  = await message.reply_video(
-                   video='https://telegra.ph/file/27476269dfbb326a7c7ae.mp4',  caption=f"<b>𝑯𝒆𝒚 , {u.mention},  𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 {message.chat.title}</b> <b> \n\n  𝒀𝑶𝑼 𝑪𝑨𝑵 𝑭𝑰𝑵𝑫 𝑴𝑶𝑽𝑰𝑬𝑺 , 𝑺𝑬𝑹𝑰𝑬𝑺 , 𝑨𝑴𝑰𝑴𝑬𝑺 , 𝑬𝑻𝑪,.\n\n ©𝑱𝑶𝑰𝑵 𝑴𝑨𝑰𝑵 𝑪𝑯𝑨𝑵𝑵𝑬𝑳 @𝑴𝑶𝑽𝑰𝑬𝑩𝑬𝑬𝑩𝑨𝑺𝑰𝑪 🐝 </b>")
+                   video='https://telegra.ph/file/27476269dfbb326a7c7ae.mp4', caption=f"<b>ʜᴇʏ 👋, {u.mention}, ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ   {message.chat.title}</b> <b> \n\n  ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇs , sᴇʀɪᴇs, ᴀɴɪᴍᴇs, ᴇᴛᴄ, 
+
+ \nғʀᴏᴍ ʜᴇʀᴇ , ᴛʏᴘᴇ ʏᴏᴜʀ ʀᴇǫᴜɪʀᴇᴅ ᴍᴏᴠɪᴇs ,ᴡᴇʙsᴇʀɪᴇs ɴᴀᴍᴇ \n\n🎉 𝙅𝙊𝙄𝙉 𝙉𝙊𝙒 <a href=https://t.me/MOVIEBEEBASIC>  🐝 𝙈𝙊𝙑𝙄𝙀𝘽𝙀𝙀</a> </b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
