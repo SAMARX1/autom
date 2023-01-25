@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('📢 Updates', url='https://t.me/R7Video')
+            InlineKeyboardButton('📢 Updates', url='https://t.me/F9Videos')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -53,7 +53,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
+                temp.MELCOW['welcome']  = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b> <b> \n\n YOU CAN FIND MOVIES , SERIES , AMIMES , ETC,. \n\n ©JOIN MAIN CHANNEL @F9VIDEOS ❤️</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
