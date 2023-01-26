@@ -42,7 +42,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝙶𝙴𝚃 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🎀', url='https://app.cosmofeed.com/vig/63a4798d634e52002cc599a3')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEE24_7')
@@ -88,7 +88,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝙶𝙴𝚃 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🎀', url='https://app.cosmofeed.com/vig/63a4798d634e52002cc599a3')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEE24_7')
