@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝙶𝙴𝚃 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🎀', url='https://app.cosmofeed.com/vig/63a4798d634e52002cc599a3')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEE24_7')
