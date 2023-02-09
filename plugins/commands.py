@@ -44,12 +44,9 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝘎𝘌𝘛 𝘗𝘙𝘌𝘔𝘐𝘜𝘔👑', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
             ],[
-
             InlineKeyboardButton('𝖯𝖫𝖠𝖭 & 𝖯𝖱𝖨𝖢𝖨𝖭𝖦🎟️', url='https://t.me/PLANANDPRICING_BEE')
             ],[
             InlineKeyboardButton('OWNER❤️', url='https://t.me/MOVIEBEEZ')
-
-
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
