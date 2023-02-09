@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙶𝙴𝚃 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🎀', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEE24_7')
+            InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEEZ')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
