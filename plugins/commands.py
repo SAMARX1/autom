@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEE24_7')
+                InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEEZ')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('𝙶𝙴𝚃 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🎀', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEE24_7')
+            InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEEZ')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('𝙶𝙴𝚃 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🎀', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEE24_7')
+            InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEEZ')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
