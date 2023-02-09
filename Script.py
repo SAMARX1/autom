@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """👋𝙷𝙴𝙻𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,  \n𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴𝚂 𝙰𝙽𝚈 𝙼𝙾𝚅𝙸𝙴𝚂, 𝚆𝙴𝙱𝚂𝙴𝚁𝙸𝙴𝚂, 𝙰𝙽𝙸𝙼𝙴 𝙴𝚃𝙲 . 𝙹𝚄𝚂𝚃 𝚃𝚈𝙿𝙴 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 \n𝙱𝚄𝚃 𝙵𝙸𝚁𝚂𝚃 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 𝚃𝙾 𝙶𝙴𝚃 𝙼𝙾𝚅𝙸𝙴𝙱𝙴𝙴 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 𝙾𝙽𝙻𝚈 𝙰𝚃 𝟷𝟽₹/𝙼𝙾𝙽𝚃𝙷. 👇"""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>,  \n\n𝖩𝖴𝖲𝖳 𝖳𝖸𝖯𝖤 𝖠𝖭𝖸 𝖬𝖮𝖵𝖨𝖤🍿,𝖶𝖤𝖡𝖲𝖤𝖱𝖨𝖤𝖲 𝖭𝖠𝖬𝖤 𝖠𝖭𝖣 𝖨 𝖶𝖨𝖫𝖫 𝖯𝖱𝖮𝖵𝖨𝖣𝖤 𝖳𝖧𝖤 𝖵𝖨𝖣𝖤𝖮 𝖥𝖨𝖫𝖤 \n\n𝖡𝖴𝖳 𝖥𝖨𝖱𝖲𝖳 𝖸𝖮𝖴 𝖧𝖠𝖵𝖤 𝖳𝖮 𝖦𝖤𝖳 𝖮𝖴𝖱 𝖯𝖱𝖤𝖬𝖨𝖴𝖬👑. 👇"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -11,8 +11,8 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: VPS
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Maya Bot is a open source project 
-- Source - https://github.com/Mujahidul09/MayaBot"""
+- this is a premium bot . If you want the repo contact devoloper👆 
+- developer - https://t.me/F9devs"""
 
 
 
