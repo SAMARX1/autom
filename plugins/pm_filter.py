@@ -1,4 +1,4 @@
-# Kanged From @TroJanZheX
+Ko# Kanged From @TroJanZheX
 import asyncio
 import re
 import ast
@@ -404,12 +404,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝙶𝙴𝚃 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 🎀', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
+            InlineKeyboardButton('𝘎𝘌𝘛 𝘗𝘙𝘌𝘔𝘐𝘜𝘔👑', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
         ], [
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Owner ❤️', url='https://t.me/MOVIEBEEZ')
+            InlineKeyboardButton('𝖯𝖫𝖠𝖭 & 𝖯𝖱𝖨𝖢𝖨𝖭𝖦🎟️', url='https://t.me/PLANANDPRICING_BEE),
         ], [
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('OWNER❤️', url='https://t.me/MOVIEBEEZ')
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
