@@ -42,12 +42,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝘎𝘌𝘛 𝘗𝘙𝘌𝘔𝘐𝘜𝘔👑', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
+            InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ📦', url='https://cosmofeed.com/vig/644104e32498b4002178763a')
             ],[
-            InlineKeyboardButton('𝖯𝖫𝖠𝖭 & 𝖯𝖱𝖨𝖢𝖨𝖭𝖦🎟️', url='https://t.me/PLANANDPRICING_BEE')
+            InlineKeyboardButton('ᴘʟᴀɴ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE')
             ],[
-            InlineKeyboardButton('OWNER❤️', url='https://t.me/MOVIEBEEZ'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ🐶', url='https://t.me/MOVIEBEEZ'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ⚙️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -66,7 +66,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link
                 )
             ]
         ]
@@ -80,19 +80,19 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**ʙᴇғᴏʀᴇ  ᴜsᴇ  ᴍᴇ,  ᴊᴏɪɴ  ᴍʏ  ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ʟᴀᴛᴇsᴛ  ᴍᴏᴠɪᴇ  ɴᴇᴡs .\n\n ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝘎𝘌𝘛 𝘗𝘙𝘌𝘔𝘐𝘜𝘔👑', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
+            InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ📦', url='https://cosmofeed.com/vig/644104e32498b4002178763a')
             ],[
-            InlineKeyboardButton('𝖯𝖫𝖠𝖭 & 𝖯𝖱𝖨𝖢𝖨𝖭𝖦🎟️', url='https://t.me/PLANANDPRICING_BEE')
+            InlineKeyboardButton('ᴘʟᴀɴ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE')
             ],[
-            InlineKeyboardButton('OWNER❤️', url='https://t.me/MOVIEBEEZ'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ🐶', url='https://t.me/MOVIEBEEZ'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ⚙️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
