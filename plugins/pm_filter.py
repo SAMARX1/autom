@@ -403,12 +403,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝘎𝘌𝘛 𝘗𝘙𝘌𝘔𝘐𝘜𝘔👑', url='https://app.cosmofeed.com/vig/63dbab581e02430032f8b63f')
+            InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ📦', url='https://cosmofeed.com/vig/644104e32498b4002178763a')
         ], [
-            InlineKeyboardButton('𝖯𝖫𝖠𝖭 & 𝖯𝖱𝖨𝖢𝖨𝖭𝖦🎟️', url='https://t.me/PLANANDPRICING_BEE'),
+            InlineKeyboardButton('ᴘʟᴀɴ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE'),
         ], [
-            InlineKeyboardButton('OWNER❤️', url='https://t.me/MOVIEBEEZ'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ🐶', url='https://t.me/MOVIEBEEZ'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ⚙️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
