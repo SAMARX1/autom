@@ -44,7 +44,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ📦', url='https://cosmofeed.com/vig/644104e32498b4002178763a')
             ],[
-            InlineKeyboardButton('ᴘʟᴀɴ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE')
+            InlineKeyboardButton('ᴅᴇᴍᴏ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE')
             ],[
             InlineKeyboardButton('ᴏᴡɴᴇʀ🐶', url='https://t.me/MOVIEBEEZ'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ⚙️', callback_data='about')
@@ -89,7 +89,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ📦', url='https://cosmofeed.com/vig/644104e32498b4002178763a')
             ],[
-            InlineKeyboardButton('ᴘʟᴀɴ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE')
+            InlineKeyboardButton('ᴅᴇᴍᴏ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE')
             ],[
             InlineKeyboardButton('ᴏᴡɴᴇʀ🐶', url='https://t.me/MOVIEBEEZ'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ⚙️', callback_data='about')
