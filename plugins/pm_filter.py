@@ -363,7 +363,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('Check PM, I have sent files in pm', show_alert=True)
+                await query.answer('ᴄʜᴇᴄᴋ  ᴛʜᴇ  ʙᴏᴛ  ᴄʜᴀᴛ . ɪ  ', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
@@ -372,7 +372,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
+            await query.answer("ʏᴏᴜ  ᴀʀᴇ  ɴᴏᴛ  ᴊᴏɪɴᴇᴅ  ᴍʏ  ᴜᴘᴅᴀᴛᴇ  ᴄʜᴀɴɴᴇʟ", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -405,7 +405,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ📦', url='https://cosmofeed.com/vig/644104e32498b4002178763a')
         ], [
-            InlineKeyboardButton('ᴘʟᴀɴ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE'),
+            InlineKeyboardButton('ᴅᴇᴍᴏ & ᴘʀɪᴄɪɴɢ🛍️', url='https://t.me/PLANANDPRICING_BEE'),
         ], [
             InlineKeyboardButton('ᴏᴡɴᴇʀ🐶', url='https://t.me/MOVIEBEEZ'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ⚙️', callback_data='about')
@@ -733,7 +733,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in that name.")
+        k = await msg.reply("sᴏʀʀʏ  sᴇᴇ  ᴘɪɴ📌 ᴍᴇssᴀɢᴇ ᴏɴ ᴛᴏᴘ☝🏻 . \n\nʀᴇǫᴜᴇsᴛᴇᴅ  ᴍᴏᴠɪᴇ  ɪs  ɴᴏᴛ  ɪɴ  ᴍʏ  ᴅᴀᴛᴀʙᴀsᴇ ")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -762,7 +762,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        k = await msg.reply("ɪ  ᴄᴏᴜʟᴅ ɴᴏᴛ  ғɪɴᴅ  ᴀɴʏᴛʜɪɴɢ  ʀᴇʟᴀᴛᴇᴅ  ᴛᴏ  ʏᴏᴜʀ  sᴘᴇʟʟɪɴɢ . \n\n**sᴇᴇ  ᴘɪɴ📌 ᴍᴇssᴀɢᴇ  ᴏɴ  ᴛᴏᴘ ☝🏻ғᴏʀ  ʏᴏᴜʀ  ɪssᴜᴇ ")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -774,7 +774,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
+    await msg.reply("ɪ  ᴄᴏᴜʟᴅ  ɴᴏᴛ  ғɪɴᴅ  ᴀɴʏᴛʜɪɴɢ😔 ʀᴇʟᴀᴛᴇᴅ ᴛᴏ  ʏᴏᴜʀ  sᴘᴇʟʟɪɴɢ \n\nᴅɪᴅ  ʏᴏᴜ  ᴍᴇᴀɴ  ᴀɴʏ  ᴏғ  ᴛʜɪs ☟︎︎ ?",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
